@@ -100,13 +100,13 @@ button:hover {
 }
 
 table {
-  background-color: white; /* 표 배경은 하얀색 */
-  color: black; /* 표 안의 모든 글자는 검은색 */
+  background-color: white; /* 표 배경 하얀색 */
+  color: black; /* 표 안 글자 검은색 */
   border-collapse: collapse;
   width: 100%;
 }
 
-/* 비디오와 오디오 그룹을 가로로 나열 */
+/* 비디오와 오디오 가로로 나열 */
 .media-flex-container {
   display: flex;
   flex-direction: row;
@@ -114,9 +114,8 @@ table {
   align-items: flex-start;
 }
 
-/* 각 그룹 내의 요소들이 너무 붙지 않게 조절 */
 .media-group {
   display: flex;
-  flex-direction: column; /* 그룹 안에서는 다시 세로로 나열 */
+  flex-direction: column;
   gap: 20px;
 }
